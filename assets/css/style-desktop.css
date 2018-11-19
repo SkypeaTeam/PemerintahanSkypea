@@ -1,0 +1,93 @@
+/*********************************************************************************/
+/* Header                                                                        */
+/*********************************************************************************/
+
+	#header
+	{
+		position: relative;
+		padding: 1em 0em;
+		text-align: center;
+	}
+						
+
+/*********************************************************************************/
+/* Nav                                                                           */
+/*********************************************************************************/
+	
+		#nav > ul > li
+		{
+			display: inline-block;
+		}
+		
+			#nav > ul > li:last-child
+			{
+				padding-right: 0;
+			}
+
+			#nav > ul > li > a,
+			#nav > ul > li > span
+			{
+				display: block;
+				padding: 1em 1.5em;
+				letter-spacing: 1px;
+				text-decoration: none;
+				text-transform: uppercase;
+				font-weight: 200;
+				font-size: 1em;
+				outline: 0;
+				color: rgba(255,255,255,.7);
+			}
+
+
+			#nav li.active a
+			{
+				background: none;
+				border-radius: 40px;
+				border: 2px solid;
+				border-color: rgba(255,255,255,.8);
+				color: #FFF;
+			}
+
+			#nav > ul > li > ul
+			{
+				display: none;
+			}
+
+
+/*********************************************************************************/
+/* Main                                                                          */
+/*********************************************************************************/
+
+	#main
+	{
+		padding: 6em 0em 4em 0em;
+	}
+	
+	#content
+	{
+	}
+	
+	#content header
+	{
+		margin-bottom: 2em;
+	}
+	
+	#content header h2
+	{
+		font-size: 3em;
+	}
+	
+	#content header .byline
+	{
+		font-size: 1.40em;
+	}
+	#sidebar{
+		width: 350px;
+	}
+	
+	#sidebar h2
+	{
+		display: block;
+		padding-bottom: 2em;
+		font-size: 1.4em;
+	}
