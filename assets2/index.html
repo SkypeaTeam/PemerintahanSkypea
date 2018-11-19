@@ -1,0 +1,86 @@
+<?php
+Session_start();
+?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="content">
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+  <title>Untitled Document</title>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <script type="text/javascript" src="js/jQuery-2.1.4.min.js"></script>
+  <script type="text/javascript" src="js/jquery.cycle2.min.js"></script>
+  <style type="text/css">
+  .style1 {color: #FFFFFF}
+  .style2 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 36px;
+}
+body {
+	background-repeat: no-repeat;
+}
+-->
+</style>
+</head>
+
+<body>
+<div id="header">
+<div id="head"><table width="107%">
+  <tr>
+    <td width="34%" ><a href="index.php"></a><a href="index.php"><img src="image/logo1.png" width="305" height="91" border="0" style="margin-left:20px;" /></a></td>
+    <td width="52%"><div align="right"></div></td>
+    <td width="1%">&nbsp;</td>
+    <td width="13%"><div align="right" class="style1">
+      <div align="center"> <strong><a href="index.php" class="style2" style="text-decoration:none; color:#FFFFFF;">MENU</a></strong></div>
+    </div></td>
+  </tr>
+</table>
+
+ <ul><form>
+   <input type = "text"name = text&quot; class = "search" placholder ="Search Here" />
+   <input type = "submit" name="submit" class ="submit" value ="CARI">
+             </form>
+                <p align="center">
+               <li><a href="">MENGENAL SKYPEA</a></li>
+               <li><a href="">TENTANG</a></li>
+               <li><a href="">KOMODITAS</a></li>
+               <li><a href="">INFORMASI PUBLIK</a></li>
+               <li style="margin-left:170px;"><a href="">INFO DAERAH</a></li>
+               <li><a href="">POTENSI DAERAH</a></li>
+               <li><a href="">KONTAK DAN INFORMASI</a></li>
+            </p>
+    </ul>
+
+  <div class="cycle-slideshow">
+    <span class="cycle-prev">&#9001;</span> <!-- Untuk membuat tanda panah di kiri slider -->
+    <span class="cycle-next">&#9002;</span> <!-- Untuk membuat tanda panah di kanan slider -->
+    <span class="cycle-pager"></span>  <!-- Untuk membuat tanda bulat atau link pada slider -->
+    <img src="images/1.png" alt="Gambar Pertama">
+    <img src="images/2.png" alt="Gambar Kedua">
+    <img src="images/3.png" alt="Gambar Ketiga">
+    <img src="images/4.png" alt="Gambar Keempat">
+  </div>
+
+
+</div>
+
+</div>
+<div id="bg_content">
+<div id="content">PEMIMPIN DAERAH </div>
+<div id="sidebar">SOSIALISASI</div>
+</div>
+
+<div id="kotak">
+<div id="kotak1"></div>
+<div id="kotak2"></div>
+</div>
+
+<div id="footer">
+<?php
+include"footer.php";
+?>
+</div>
+</body>
+</html>
