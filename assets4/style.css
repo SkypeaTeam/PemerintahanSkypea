@@ -1,0 +1,134 @@
+/*pengaturan body */
+header
+	{
+		margin-bottom: 1em;
+	}
+
+#header
+	{
+		position: relative;
+		padding: 1em 0em;
+		text-align: center;
+	}
+#header
+	{
+		position: relative;
+		background: #2a2f27 url(http://localhost/ciblog/assets4/images/background3.jpg) no-repeat;
+		opacity: .70;
+		background-size: cover;
+	}
+#content header h2
+	{
+		font-size: 3em;
+	}
+
+#nav
+	{
+	}
+
+		#nav ul
+		{
+			margin: 0;
+		}
+
+#nav > ul > li
+{
+	display: inline-block;
+}
+		
+			#nav > ul > li:last-child
+			{
+				padding-right: 0;
+			}
+
+			#nav > ul > li > a,
+			#nav > ul > li > span
+			{
+				display: block;
+				padding: 1em 1.5em;
+				letter-spacing: 1px;
+				text-decoration: none;
+				text-transform: uppercase;
+				font-weight: 400;
+				font-size: 2em;
+				outline: 0;
+				color: rgba(255,255,255,.7);
+			}
+
+
+			#nav > ul > li > a:hover
+			{
+				color: #FFF;
+			}
+
+			#nav li.active a
+			{
+				background: none;
+				border-radius: 40px;
+				border: 2px solid;
+				border-color: rgba(255,255,255,.8);
+				color: #FFF;
+			}
+
+			#nav > ul > li > ul
+			{
+				display: none;
+			}
+
+
+body {
+	margin: 0px;
+	padding: 0px;
+	background-color: white;
+}
+
+/*pengaturan logo */
+.logo {
+	width: 200px;
+	height: 100px;
+	background-position: right;
+}
+
+/*pengaturan layout */
+.bg {
+	background-image: url(http://localhost/ciblog/assets4/images/background2.jpg);
+	background-position: center;
+	background-size: cover;
+	height: 65vh;
+}
+
+.bg_content{
+	background-color: white;
+}
+
+.logo1 {
+	background-color: black;
+}
+
+h1 {
+	margin: 50px auto;
+	font-size: 60px;
+	color: white;
+	font-family: arial;
+	font-weight: bold;
+	text-align: center;
+}
+
+.content {
+	text-align: center;
+	font-size: 50px;
+	font-family: arial;
+	margin: 50px auto;
+}
+
+ul {
+	padding: 0px;
+	margin: 0px;
+
+}
+
+#footer {
+	background-color: black;
+	text-align: center;
+}
+
