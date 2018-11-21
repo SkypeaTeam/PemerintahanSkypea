@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>pabw.go.id</title>
 	<link rel="stylesheet" href="http://localhost/ciblog/assets5/style.css">
 </head>
 <body>
