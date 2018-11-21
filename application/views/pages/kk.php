@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>pabw.go.id</title>
 	<link rel="stylesheet" href="http://localhost/ciblog/assets5/style.css">
 </head>
 <body>
@@ -10,7 +9,9 @@
 		</div>
 	<div class="bg_content">
 		<div class="text">
-			<h2 align="right"><a href="<?php echo base_url(); ?>layanan">BACK</a></h2>
+			<div class="back">
+		<a href="<?php echo base_url(); ?>layanan">BACK</a></h2>
+	</div>
 		<br><br><h2 align="center">KARTU KELUARGA (KK)</h2>
 		<p align="center">Selasa, 31 Oktober 2018 01:45 WIB</p></br>
 		<h2>Lokasi Pelayanan : Kantor Kelurahan</h2>
