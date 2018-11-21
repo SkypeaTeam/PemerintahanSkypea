@@ -46,6 +46,7 @@ body {
 
 	<ul style="position: absolute;
 	margin: 0px;
+	margin-bottom:100px;
 	margin-top:50px;
 	padding: 0px;
 	list-style: none;
@@ -66,7 +67,7 @@ body {
 					margin-left: 15px;
 					margin-block-end: 40px;
 					text-align: center;">
-					<a href="http://localhost/ciblog/application/views/pages/home" class="style3">MENGENAL SKYPEA</a></li>
+					<a href="<?php echo base_url(); ?>about" class="style3">MENGENAL SKYPEA</a></li>
 					
           <li style="float: left;
 					width: 275px;
@@ -81,7 +82,7 @@ body {
 					margin-left: 15px;
 					margin-block-end: 40px;
 					text-align: center;">
-					<a href="" class="style3">KONTAK DAN INFORMASI</a></li>
+					<a href="<?php echo base_url(); ?>posts" class="style3">BERITA</a></li>
 					
           <li style="float: left;
 					width: 275px;
@@ -96,7 +97,7 @@ body {
 					margin-left: 15px;
 					margin-block-end: 40px;
 					text-align: center;">
-					<a href="" class="style3">LAYANAN PUBLIK</a></li>
+					<a href="<?php echo base_url(); ?>layanan" class="style3">LAYANAN PUBLIK</a></li>
 					
           <li style="margin-left:315px;float: left;
 					width: 275px;
@@ -112,23 +113,8 @@ body {
 					margin-block-end: 40px;
 					text-align: center;
 					">
-		  <a href="" class="style3">INFO DAERAH</a></li>
+		  <a href="<?php echo base_url(); ?>potensi">POTENSI DAERAH</a></li>
 		  
-          <li style="float: left;
-					width: 275px;
-					height: 60px;
-					background-color: black;
-					opacity: .6;
-					line-height: 60px;
-					text-align: center;
-					font-size: 15px;
-					margin-right: 10px;
-					margin-bottom: 20px;
-					margin-left: 15px;
-					margin-block-end: 40px;
-					text-align: center;">
-					<a href="" class="style3">POTENSI DAERAH</a></li>
-			
          </p>
     </ul>
 
