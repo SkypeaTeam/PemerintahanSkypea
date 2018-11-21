@@ -17,7 +17,7 @@
 			<div>
 				<nav id="nav">
 					<ul>
-						<li class="active"><a href="<?php echo base_url(); ?>potensi">Pariwisata</a></li>
+						<li class="active"><a href="<?php echo base_url(); ?>pariwisata">Pariwisata</a></li>
 						<li ><a href="<?php echo base_url(); ?>peternakan">Peternakan</a></li>
 						<li ><a href="<?php echo base_url(); ?>pertanian">Pertanian</a></li>
 					</ul>
